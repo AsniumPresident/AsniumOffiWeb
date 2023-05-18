@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Asnium Defense</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="files.html">Files</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Welcome to Asnium Defense</h1>
+    <p>Website content goes here...</p>
+
+    <form action="files.html" method="post">
+      <label for="password">Enter the password to access files:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Asnium Defense. All rights reserved.</p>
+  </footer>
+</body>
+</html>
